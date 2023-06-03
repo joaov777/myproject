@@ -1,0 +1,98 @@
+*˜
+*.pyc
+.svn
+.DS_Store
+.DS_Store?
+._*
+*.un~
+settings.py
+audit.log
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.project
+.pydevproject
+.settings/*
+upload/*
+.idea/*
+.un~
+htmlcov/
+doc_menus/
+.cache/
+.coverage
+.ropeproject/
+src/*
+logs/
+nohup.out
+static/*
+venv/
+.venv/
+.vscode
+*-workspace
+bin/ci/nginx/
+.env
+frozen-requirements.txt
+cleaned-requirements.txt
+chromedriver
+suap_mock.sql
+*.ipynb
+
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore static files
+/staticfiles/
+
+# Ignore media uploads
+/media/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore secret keys and sensitive information
+secrets.json
+
+# Ignore package dependencies
+/venv/
+/pipenv/
+/.venv/
+
+# Ignore generated files
+*.pyo
+*.pyd
+*.class
+
+# Ignore local configuration files
+local_settings.py
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore cache and temporary files
+__pycache__/
+.cache/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore Django project files
+*.bak
+db.sqlite3
+/static_root/
+
+# Ignore any other files or directories that are not required for version control
