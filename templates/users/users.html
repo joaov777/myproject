@@ -13,6 +13,7 @@
 	<!-- Printing users -->
 
 	{% if users %}
+		<!-- loop -->
 		{% for person in users %}
 			{{person.first_name}} {{person.last_name}} <br>
 		{% endfor %}
